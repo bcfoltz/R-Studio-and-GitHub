@@ -1,0 +1,24 @@
+---
+title: "First GitHub and Markdown"
+author: "Brandon Foltz"
+date: "2023-03-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+diamonds|>
+  View()
+```
+
+```{r}
+ggplot(diamonds,
+       aes(x = carat, y = price)) +
+  geom_point()
+  
+```
+
