@@ -19,6 +19,11 @@ diamonds|>
 ggplot(diamonds,
        aes(x = carat, y = price)) +
   geom_point()
-  
+```
+
+```{r}
+ggplot(diamonds,
+       aes(y = carat)) +
+  geom_histogram()
 ```
 
