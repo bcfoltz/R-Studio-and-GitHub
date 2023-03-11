@@ -23,7 +23,7 @@ ggplot(diamonds,
 
 ```{r}
 ggplot(diamonds,
-       aes(y = carat)) +
+       aes(x = carat)) +
   geom_histogram()
 ```
 
