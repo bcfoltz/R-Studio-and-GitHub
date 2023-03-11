@@ -1,0 +1,16 @@
+---
+title: "02 - Iris"
+author: "Brandon Foltz"
+date: "2023-03-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+View(iris)
+plot(iris$Sepal.Length, iris$Sepal.Width)
+```
+
